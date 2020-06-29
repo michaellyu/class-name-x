@@ -1,0 +1,28 @@
+{
+  "name": "class-name-x",
+  "version": "0.1.0",
+  "description": "Build a `ClassName` same as a simple object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require intelli-espower-loader ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaellyu/class-name-x.git"
+  },
+  "keywords": [
+    "Class Name",
+    "ClassName"
+  ],
+  "author": "michaellyu <michaellyu@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaellyu/class-name-x/issues"
+  },
+  "homepage": "https://github.com/michaellyu/class-name-x#readme",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0"
+  }
+}
